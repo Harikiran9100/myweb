@@ -1,4 +1,4 @@
-FROM centos:8
+FROM centos:7
 # Installing Java
 ENV JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk
 ENV PATH=$PATH:$JAVA_HOME
