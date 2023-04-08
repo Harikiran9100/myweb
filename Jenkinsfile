@@ -9,7 +9,7 @@ pipeline {
     stage('Building the image') {
       steps {
         sh """
-        docker build -t "javawebapplication" .
+        docker build -t "javaapplication" .
         """
       }
     }
